@@ -19,22 +19,28 @@
     #four,
     #five {
         width: 20px;
+        background-color: red;
+    }
+
+    .container {
+        margin-left: 20px;
     }
     </style>
 </head>
 
 <body>
-    <h1>Password strength checker</h1>
-    <p>Please enter your email and password</p>
-    <div>
+    <div class="container">
+        <h1>Password strength checker</h1>
+        <p>Please enter your email and password</p>
+    </div>
+    <div class="container">
         <p>
             <input type="email" placeholder="enter your email here" id="email">
         </p>
         <p>
             <input type="password" id="psw" placeholder="enter your password here">
-        </p>
     </div>
-    <div>
+    <div class="container">
         <p><strong>Your password must have:</strong></p>
         <table>
             <tr>
