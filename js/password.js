@@ -20,11 +20,14 @@ $(document).ready(function() {
             $("#two").css("background-color", "#42ff9e")
         }
         if (regex.test(psw) == true) {
-            $("#five").css("background-color", "#42ff9e")
+            $("#four").css("background-color", "#42ff9e")
         }
         if (psw.length >= 8) {
-            $("#four").css("background-color", "#42ff9e") &&
-                $("#email").focus()
+            $("#five").css("background-color", "#42ff9e")
+
+        }
+        if (psw.length == 15) {
+            $("#email").focus()
         }
 
     })
