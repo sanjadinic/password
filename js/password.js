@@ -25,8 +25,6 @@ $(document).ready(function() {
         if (psw.length >= 8) {
             $("#five").css("background-color", "#42ff9e")
 
-        }
-        if (psw.length == 15) {
             $("#email").focus()
         }
 
